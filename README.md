@@ -10,7 +10,7 @@
 ## Screenshots
 ![Page 2](/screen2.png)
 ![Swiping to page 3](/screen3.png)
-![Page 3](/lscreen4.png)
+![Page 3](/screen4.png)
 
 
 ## Running the app
