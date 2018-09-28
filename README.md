@@ -1,7 +1,7 @@
 # Collection-View-App
 
 ## About
-- This app was created without the use of a Storyboard. All the UI elements were created programmatically.
+- This app was created without the use of a Storyboard. Entirety of the app was created programmatically.
 
 
 ## Developer

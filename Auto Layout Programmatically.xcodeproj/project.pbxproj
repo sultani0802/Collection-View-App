@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CADF19D215DA98200099024 /* SwipingController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CADF19C215DA98200099024 /* SwipingController+Extension.swift */; };
+		0CADF19F215DAA4400099024 /* SwipingController+UICollectionViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CADF19E215DAA4400099024 /* SwipingController+UICollectionViewDelegates.swift */; };
 		0CD32EAF215AC0AD00530A14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD32EAE215AC0AD00530A14 /* AppDelegate.swift */; };
 		0CD32EB1215AC0AD00530A14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD32EB0215AC0AD00530A14 /* ViewController.swift */; };
 		0CD32EB6215AC0AF00530A14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CD32EB5215AC0AF00530A14 /* Assets.xcassets */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CADF19C215DA98200099024 /* SwipingController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwipingController+Extension.swift"; sourceTree = "<group>"; };
+		0CADF19E215DAA4400099024 /* SwipingController+UICollectionViewDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwipingController+UICollectionViewDelegates.swift"; sourceTree = "<group>"; };
 		0CD32EAB215AC0AD00530A14 /* Auto Layout Programmatically.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auto Layout Programmatically.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CD32EAE215AC0AD00530A14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CD32EB0215AC0AD00530A14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +109,8 @@
 			children = (
 				0CD32EAE215AC0AD00530A14 /* AppDelegate.swift */,
 				0CD32ED0215C85D100530A14 /* SwipingController.swift */,
+				0CADF19E215DAA4400099024 /* SwipingController+UICollectionViewDelegates.swift */,
+				0CADF19C215DA98200099024 /* SwipingController+Extension.swift */,
 				0CD32EC2215AC0B000530A14 /* Auto Layout ProgrammaticallyTests */,
 			);
 			path = Controllers;
@@ -228,8 +234,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CD32EB1215AC0AD00530A14 /* ViewController.swift in Sources */,
+				0CADF19F215DAA4400099024 /* SwipingController+UICollectionViewDelegates.swift in Sources */,
 				0CD32EAF215AC0AD00530A14 /* AppDelegate.swift in Sources */,
 				0CD32ED1215C85D100530A14 /* SwipingController.swift in Sources */,
+				0CADF19D215DA98200099024 /* SwipingController+Extension.swift in Sources */,
 				0CD32ED3215C8FA000530A14 /* PageCollectionViewCell.swift in Sources */,
 				0CD32ED5215C9B5F00530A14 /* Page.swift in Sources */,
 			);

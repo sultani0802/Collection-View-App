@@ -10,18 +10,28 @@ import UIKit
 
 class PageCollectionViewCell: UICollectionViewCell {
     
+    // Get a reference to our model object
     var page: Page? {
         didSet {
-            guard let unwrappedPage = page else { return }
-            santaImageView.image = UIImage(named: unwrappedPage.imageName)
+            guard let unwrappedPage = page else { return }                      //Unwrap the page with guard statement
+            santaImageView.image = UIImage(named: unwrappedPage.imageName)      // Grab the image from model
             
-            let attributedText = NSMutableAttributedString(string: unwrappedPage.headerText, attributes: [NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: 18)])
-            attributedText.append(NSAttributedString(string: "\n\n\n\(unwrappedPage.bodyText)", attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 13), NSAttributedString.Key.foregroundColor : UIColor.gray]))
+            // Grab the text for the description text view from the model
+            let attributedText = NSMutableAttributedString(string: unwrappedPage.headerText,
+                                                           attributes: [NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: 18)]
+                                                            )
+            // Add the second string to our textView
+            attributedText.append(NSAttributedString(string: "\n\n\n\(unwrappedPage.bodyText)",
+                attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 13),
+                             NSAttributedString.Key.foregroundColor : UIColor.gray]))
             
             descriptionTextView.attributedText = attributedText
             descriptionTextView.textAlignment = .center
+            descriptionTextView.isUserInteractionEnabled = false // User won't be able to highlight the text
         }
     }
+    
+    
     
     //MARK: - UI Elements
     private var santaImageView: UIImageView = {
@@ -83,6 +93,8 @@ class PageCollectionViewCell: UICollectionViewCell {
         descriptionTextView.rightAnchor.constraint(equalTo: rightAnchor, constant: -24).isActive = true
         descriptionTextView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: 0).isActive = true
     }
+    
+    
     
     
 }
