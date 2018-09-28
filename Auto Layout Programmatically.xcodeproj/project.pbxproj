@@ -10,7 +10,6 @@
 		0CADF19D215DA98200099024 /* SwipingController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CADF19C215DA98200099024 /* SwipingController+Extension.swift */; };
 		0CADF19F215DAA4400099024 /* SwipingController+UICollectionViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CADF19E215DAA4400099024 /* SwipingController+UICollectionViewDelegates.swift */; };
 		0CD32EAF215AC0AD00530A14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD32EAE215AC0AD00530A14 /* AppDelegate.swift */; };
-		0CD32EB1215AC0AD00530A14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD32EB0215AC0AD00530A14 /* ViewController.swift */; };
 		0CD32EB6215AC0AF00530A14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CD32EB5215AC0AF00530A14 /* Assets.xcassets */; };
 		0CD32EB9215AC0AF00530A14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD32EB7215AC0AF00530A14 /* LaunchScreen.storyboard */; };
 		0CD32EC4215AC0B000530A14 /* Auto_Layout_ProgrammaticallyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD32EC3215AC0B000530A14 /* Auto_Layout_ProgrammaticallyTests.swift */; };
@@ -34,7 +33,6 @@
 		0CADF19E215DAA4400099024 /* SwipingController+UICollectionViewDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwipingController+UICollectionViewDelegates.swift"; sourceTree = "<group>"; };
 		0CD32EAB215AC0AD00530A14 /* Auto Layout Programmatically.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auto Layout Programmatically.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CD32EAE215AC0AD00530A14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0CD32EB0215AC0AD00530A14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0CD32EB5215AC0AF00530A14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CD32EB8215AC0AF00530A14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CD32EBA215AC0AF00530A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -84,10 +82,10 @@
 		0CD32EAD215AC0AD00530A14 /* Auto Layout Programmatically */ = {
 			isa = PBXGroup;
 			children = (
-				0CD32EB0215AC0AD00530A14 /* ViewController.swift */,
 				0CD32ED6215C9B8500530A14 /* Models */,
 				0CD32ECF215C7B7500530A14 /* Views */,
 				0CD32ECE215C7B6D00530A14 /* Controllers */,
+				0CD32EC2215AC0B000530A14 /* Auto Layout ProgrammaticallyTests */,
 				0CD32EB5215AC0AF00530A14 /* Assets.xcassets */,
 				0CD32EB7215AC0AF00530A14 /* LaunchScreen.storyboard */,
 				0CD32EBA215AC0AF00530A14 /* Info.plist */,
@@ -111,7 +109,6 @@
 				0CD32ED0215C85D100530A14 /* SwipingController.swift */,
 				0CADF19E215DAA4400099024 /* SwipingController+UICollectionViewDelegates.swift */,
 				0CADF19C215DA98200099024 /* SwipingController+Extension.swift */,
-				0CD32EC2215AC0B000530A14 /* Auto Layout ProgrammaticallyTests */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -233,7 +230,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CD32EB1215AC0AD00530A14 /* ViewController.swift in Sources */,
 				0CADF19F215DAA4400099024 /* SwipingController+UICollectionViewDelegates.swift in Sources */,
 				0CD32EAF215AC0AD00530A14 /* AppDelegate.swift in Sources */,
 				0CD32ED1215C85D100530A14 /* SwipingController.swift in Sources */,
